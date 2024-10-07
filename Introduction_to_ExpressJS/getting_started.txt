@@ -1,0 +1,21 @@
+--> Installation of node and the npm(Node Package manager) is compulsary.
+--> Confirm the installation of node and npm by following commands in terminal
+    node --version
+    npm --version
+
+NPM--> Node Package manager
+        --> The npm Registry is a public collection of packages of open-source code for Node.js, front-end web apps, mobile apps, robots, routers, and countless other needs of the JavaScript community
+
+#How to use npm?
+--> Globally- generally used to install tools and CLI based packages. 
+              To install a package globally, use the following code.
+                npm install -g <package-name>
+--> Locally- generally used to install frameworks and libraries.
+            -can be used only with the directory it is installed. 
+             To install a package locally use the above command same but without -g flag.
+                npm install <package-name>
+
+#<----------------------->
+--> Whenever we want to create a project using npm, we need to provide a package.json file, which has all the details about our project.
+    npm makes it easy for us to setup this file.
+    

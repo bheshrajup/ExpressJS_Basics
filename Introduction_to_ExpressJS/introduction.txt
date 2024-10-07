@@ -1,0 +1,12 @@
+ExpressJS is a web application framework that provides us with a simple API to build websites, web apps and back end. 
+--> It provides a minimal interface to build applications. 
+--> Numerous modules are available on npm that can be directly plugged into Express.
+-->Pug --> a terse language for writing html templates.
+       --> it produces html
+       --> it supports dynamic code
+       --> it supports reusability(DRY-Don't repeat yourself)
+       --> most popular template language used with Express
+
+#MongoDB and Mongoose 
+--> MongoDB is an open-source, document database designed for ease of developement and scaling. 
+--> Mongoose is a client API for node.js which make it easy to access our database from our Express application.
