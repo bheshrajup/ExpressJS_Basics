@@ -1,0 +1,28 @@
+Simple Tags
+    --> Tags are nested according to their indentation. 
+    We don't need to close tags, as soon as Pug encounters the next tag on same or outer indentation level, it closes the tags for us.
+
+    --> To put text inside of a tag, there are 3 methods-
+        -Space separated(For Example: h1 Welcome to Pug)
+        -Piped Text(For example: div
+                                |To insert Multiline text,
+                                |Pipe operator can be used )
+
+        - Block of text(For example:
+                                    But that gets tedious if you have a lot of text.
+                                    You can use "." at the end of tag to denote block of text.
+                                    To put tags inside this block, simply enter tag in a new line and 
+                                    indent it accordingly.)
+
+Comments-->
+//This is a pug Comments
+<!--This is a pug comment-->
+
+Attributes-->To define attributes, we use a comma separated list of attributes,
+                in parenthesis. Class and ID attributes have special representations. 
+                The following line of code covers defining attributes, classes and id for a given html tag.
+<div class = "container column main" id = "division" width = "100" height = "100"></div>
+
+
+Passing values to templates
+
