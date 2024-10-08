@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Bheshraj Upadhyaya",
+    "address": "Kailali"
+  },
+  {
+    "id": 2,
+    "name": "Soon Bahadur",
+    "address": "Space"
+  },
+  {
+    "id": 3,
+    "name": "Moon Bahadur",
+    "address": "Near Earth"
+  },
+  {
+    "id": 4,
+    "name": "Aatmaram",
+    "address": "Gokuldham"
+  },
+  {
+    "id": 5,
+    "name": "Aatmaram",
+    "address": "Gokuldham"
+  },
+  {
+    "id": 6,
+    "name": "Nabin Thapa",
+    "address": "Dailekh"
+  },
+  {
+    "id": 7,
+    "name": "Bhide",
+    "address": "Gokuldham"
+  },
+  {
+    "id": 8,
+    "name": "Aatmaram",
+    "address": "Gokuldham"
+  }
+]
