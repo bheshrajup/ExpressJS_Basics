@@ -31,7 +31,7 @@ const writeDataToFile = (data) => {
     }
 };
 
-// GET request to retrieve all users or search by name
+// GET request for all users or search by name
 app.get('/users', (req, res) => {
     const data = readDataFromFile();
     const searchName = req.query.name;
@@ -64,7 +64,7 @@ app.post('/add-user', (req, res) => {
     res.status(201).json({ message: 'User added successfully', id: newId });
 });
 
-// GET request to retrieve a specific user by ID
+// GET request for specific user by ID
 app.get('/users/:id', (req, res) => {
     const data = readDataFromFile();
     const id = parseInt(req.params.id);
@@ -86,8 +86,8 @@ app.put('/users/:id', (req, res) => {
     const index = data.findIndex(item => item.id === id);
 
     if (index !== -1) {
-        data[index].name = name || data[index].name; // Update name if provided
-        data[index].address = address || data[index].address; // Update address if provided
+        data[index].name = name || data[index].name; // Update name  
+        data[index].address = address || data[index].address; // Update address  
         writeDataToFile(data);
         res.json({ message: 'User updated successfully', id });
     } else {
