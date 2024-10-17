@@ -1,0 +1,16 @@
+const jwt = require('jsonwebtoken');
+
+const generateAccessToken = (user) => {
+    return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '15m' });
+};
+
+const generateRefreshToken = (user) => {
+    return jwt.sign(user, process.env.REFRESH_TOKEN_SECRET, { expiresIn: '7d' });
+};
+
+// Ensure you implement a function to verify the refresh token
+const verifyRefreshToken = (token) => {
+    return jwt.verify(token, process.env.REFRESH_TOKEN_SECRET);
+};
+
+module.exports = { generateAccessToken, generateRefreshToken, verifyRefreshToken };
